@@ -1,13 +1,9 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
 import heroImg from "../../../assets/h1_hero-bg-removebg-preview.png";
 
 const Hero = () => {
   return (
     <div className="py-28">
-      <Helmet>
-        <title>Sharif || Home</title>
-      </Helmet>
 
       <div className="hero ">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -24,7 +20,7 @@ const Hero = () => {
             From Dhaka, Bangladesh. I’m a Front End Web developer who is passionate about making  websites. I am good at ReactJS. I love to talk with you about your unique. 
             </p>
             <button className=" px-8 py-2 font-bold border rounded-3xl text-white bg-[#F3B90B] hover:bg-[#112] hover:border-[#F3B90B]hover:tranparent shadow-lg shadow-[#F3B90B]">
-              Appointment
+              Download CV
             </button>
           </div>
         </div>
