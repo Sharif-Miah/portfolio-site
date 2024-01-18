@@ -1,5 +1,6 @@
 import React from "react";
-import heroImg from "../../../assets/h1_hero-bg-removebg-preview.png";
+// import heroImg from "../../../assets/h1_hero-bg-removebg-preview.png";
+import mePic from '../../../assets/me-pic.png'
 
 const Hero = () => {
   return (
@@ -7,10 +8,10 @@ const Hero = () => {
 
       <div className="hero ">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="lg:w-1/2">
-            <img src={heroImg} className="lg:ml-48 w-96" alt="" />
+          <div className=" sm:w-full lg:w-1/2">
+            <img src={mePic} className=" lg:ml-40  w-full mt-[-200px] " alt="" />
           </div>
-          <div className="lg:w-1/2">
+          <div className="sm:w-full lg:w-1/2">
             <h4 className="text-[18px] font-bold text-white  uppercase">HELLO, MY NAME IS</h4>
             <h1 className="text-[60px] text-white font-bold">
               Sharif Miah
