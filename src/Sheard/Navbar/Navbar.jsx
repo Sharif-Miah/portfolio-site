@@ -1,25 +1,90 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll, scroller } from "react-scroll";
+
 
 const Navbar = () => {
   const MenuItem = (
     <>
       <li>
-        <Link className="ml-5 font-semibold">HOME</Link>
+        <Link
+          to="/"
+          spy={true}
+          smooth={true}
+          activeClass="active"
+          offset={-100}
+          duration={500}
+          className="ml-5 font-semibold"
+        >
+          HOME
+        </Link>
       </li>
       <li>
-        <Link to="/about" className="ml-5 font-semibold">
-          About
+        <Link
+          to="/service"
+          spy={true}
+          smooth={true}
+          activeClass="active"
+          offset={-100}
+          duration={500}
+          className="ml-5 font-semibold"
+        >
+          Service
         </Link>
       </li>
 
       <li>
-        <Link to="/portfolio" className="ml-5 font-semibold">
+        <Link
+          to="/portfolio"
+          spy={true}
+          smooth={true}
+          activeClass="active"
+          offset={-100}
+          duration={500}
+          className="ml-5 font-semibold"
+        >
           Portfolio
         </Link>
       </li>
+
       <li>
-        <Link to="/contact" className="ml-5 font-semibold">
+        <Link
+          to="/skills"
+          spy={true}
+          smooth={true}
+          activeClass="active"
+          offset={-100}
+          duration={500}
+          className="ml-5 font-semibold"
+        >
+          skills
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          to="/education"
+          spy={true}
+          smooth={true}
+          activeClass="active"
+          hashSpy={true}
+          offset={-100}
+          duration={500}
+          className="ml-5 font-semibold"
+        >
+          Education
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="/contact"
+          spy={true}
+          smooth={true}
+          activeClass="active"
+          hashSpy={true}
+          offset={-150}
+          duration={500}
+          className="ml-5 font-semibold"
+        >
           Contact
         </Link>
       </li>
@@ -48,7 +113,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-black rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-white rounded-box w-52"
           >
             {MenuItem}
           </ul>
@@ -58,7 +123,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal hover:text-white px-1">
+        <ul className="menu menu-horizontal text-white hover:text-white px-1">
           {MenuItem}
         </ul>
       </div>
