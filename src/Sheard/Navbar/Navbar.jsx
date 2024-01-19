@@ -1,92 +1,29 @@
 import React from "react";
-import { Link, animateScroll as scroll, scroller } from "react-scroll";
-
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const MenuItem = (
     <>
       <li>
-        <Link
-          to="/"
-          spy={true}
-          smooth={true}
-          activeClass="active"
-          offset={-100}
-          duration={500}
-          className="ml-5 font-semibold"
-        >
-          HOME
-        </Link>
+        <a href="/">HOME</a>
       </li>
       <li>
-        <Link
-          to="/service"
-          spy={true}
-          smooth={true}
-          activeClass="active"
-          offset={-100}
-          duration={500}
-          className="ml-5 font-semibold"
-        >
-          Service
-        </Link>
+        <a href="service">Service</a>
       </li>
 
       <li>
-        <Link
-          to="/portfolio"
-          spy={true}
-          smooth={true}
-          activeClass="active"
-          offset={-100}
-          duration={500}
-          className="ml-5 font-semibold"
-        >
-          Portfolio
-        </Link>
+        <a href="portfolio">Portfolio</a>
       </li>
 
       <li>
-        <Link
-          to="/skills"
-          spy={true}
-          smooth={true}
-          activeClass="active"
-          offset={-100}
-          duration={500}
-          className="ml-5 font-semibold"
-        >
-          skills
-        </Link>
+        <a href="skills">skills</a>
       </li>
 
       <li>
-        <Link
-          to="/education"
-          spy={true}
-          smooth={true}
-          activeClass="active"
-          hashSpy={true}
-          offset={-100}
-          duration={500}
-          className="ml-5 font-semibold"
-        >
-          Education
-        </Link>
+        <a href="education">Education</a>
       </li>
       <li>
-        <Link
-          to="/contact"
-          spy={true}
-          smooth={true}
-          activeClass="active"
-          hashSpy={true}
-          offset={-150}
-          duration={500}
-          className="ml-5 font-semibold"
-        >
-          Contact
-        </Link>
+        <a href="contact">Contact</a>
       </li>
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
-// import heroImg from "../../../assets/h1_hero-bg-removebg-preview.png";
-import mePic from '../../../assets/me-pic.png'
+import heroImg from "../../../assets/h1_hero-bg-removebg-preview.png";
+// import mePic from '../../../assets/me-pic.png'
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className=" sm:w-full lg:w-1/2">
-            <img src={mePic} className=" lg:ml-40  w-full mt-[-200px] " alt="" />
+            <img src={heroImg} className=" w-25 ml-52 " alt="" />
           </div>
           <div className="sm:w-full lg:w-1/2">
             <h4 className="text-[18px] font-bold text-white  uppercase">HELLO, MY NAME IS</h4>
