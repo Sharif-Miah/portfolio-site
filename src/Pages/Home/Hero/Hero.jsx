@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero ">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className=" sm:w-full lg:w-1/2">
-              <img src={heroImg} className=" w-25 ml-52 " alt="" />
+              <img src={heroImg} className=" w-25 sm:ml-0 lg:ml-52 " alt="" />
             </div>
             <div className="sm:w-full lg:w-1/2">
               <h4 className="text-[18px] font-bold text-white  uppercase">
