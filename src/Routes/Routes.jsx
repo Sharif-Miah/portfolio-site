@@ -16,26 +16,26 @@ export const router = createBrowserRouter([
                 path: '/',
                 element: <Home />
             },
-            {
-                path: '/service',
-                element: <Services />
-            },
-            {
-                path: '/portfolio',
-                element: <Portfolio />
-            },
-            {
-                path: '/skills',
-                element: <Skills />
-            },
-            {
-                path: '/education',
-                element: <Education />
-            },
-            {
-                path: '/contact',
-                element: <Contact />
-            },
+            // {
+            //     path: '/service',
+            //     element: <Services />
+            // },
+            // {
+            //     path: '/portfolio',
+            //     element: <Portfolio />
+            // },
+            // {
+            //     path: '/skills',
+            //     element: <Skills />
+            // },
+            // {
+            //     path: '/education',
+            //     element: <Education />
+            // },
+            // {
+            //     path: '/contact',
+            //     element: <Contact />
+            // },
         ]
     }
 ])

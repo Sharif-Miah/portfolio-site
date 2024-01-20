@@ -6,9 +6,7 @@ import Footer from '../Sheard/Footer/Footer';
 const Main = () => {
     return (
         <div>
-            <Navbar/>
             <Outlet/>
-            <Footer/>
         </div>
     );
 };

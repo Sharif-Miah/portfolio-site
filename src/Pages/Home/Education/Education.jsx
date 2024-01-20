@@ -5,7 +5,8 @@ import govtCollege from "../../../assets/narsingdiGovtCollege.png"
 import school from "../../../assets/bonaid.jpg"
 const Education = () => {
   return (
-    <div className="mb-12">
+    <section id="education">
+      <div className="mb-12">
       <SectiionTitle heading="education" />
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 mt-8">
         <div className="my-6 mx-auto">
@@ -43,6 +44,7 @@ const Education = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

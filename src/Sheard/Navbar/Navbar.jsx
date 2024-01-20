@@ -5,31 +5,31 @@ const Navbar = () => {
   const MenuItem = (
     <>
       <li>
-        <a href="/">HOME</a>
+        <a href="#home">HOME</a>
       </li>
       <li>
-        <a href="service">Service</a>
-      </li>
-
-      <li>
-        <a href="portfolio">Portfolio</a>
+        <a href="#services">Service</a>
       </li>
 
       <li>
-        <a href="skills">skills</a>
+        <a href="#portfolio">Portfolio</a>
       </li>
 
       <li>
-        <a href="education">Education</a>
+        <a href="#skills">skills</a>
+      </li>
+
+      <li>
+        <a href="#education">Education</a>
       </li>
       <li>
-        <a href="contact">Contact</a>
+        <a href="#contact">Contact</a>
       </li>
     </>
   );
 
   return (
-    <div className="navbar fixed z-10 max-w-7xl  text-white pt-4">
+    <div className="navbar max-w-7xl  text-white pt-4">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
